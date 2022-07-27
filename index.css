@@ -92,7 +92,7 @@ h6 {
 /* Gurus */
 
 .gurus {
-    grid-column: 1 / -1;
+    grid-column: 6 / 8;
     display: flex;
     justify-content: center;
 }
