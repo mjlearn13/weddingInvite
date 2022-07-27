@@ -1,0 +1,158 @@
+/* This favicon was generated using the following graphics from Twitter Twemoji:
+
+- Graphics Title: 1f498.svg
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f498.svg
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/) */
+
+@font-face {
+    font-family: 'wed-font';
+    src: url(wedding-dream.ttf);
+}
+
+:root {
+    --bergundy: #951634;
+    --red: #c2224b;
+    --pink: #e3518f;
+    --black: black;
+    --white: #dbe5ec;
+    --beige: #a0ac7d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    background: url(images/rosesInCorner.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+
+body {
+    /* font-size: 1.25rem; */
+    max-height: 50rem;
+    max-width: 68.75rem;
+    margin: .5rem auto;
+    font-family: 'Parisienne', cursive;
+    color: var(--red);
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: .94rem;
+}
+
+h6 {
+    font-size: .625rem;
+}
+
+.wed-font {
+    font-family: 'wed-font', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.txt-shad {
+    text-shadow: .0625rem .0625rem .0625rem var(--black);
+}
+
+.txt-shad-lgt {
+    text-shadow: .0625rem .0625rem var(--white);
+}
+
+.underline {
+    border-bottom: .125rem solid var(--beige);
+}
+
+.solid-line {
+    width: 4.375rem;
+    border-top: 0.125rem solid var(--beige);
+    border-radius: 0.0625rem;
+}
+
+/* Gurus */
+
+.gurus {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+}
+
+.ek-onkar {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+/* Wedding */
+
+.grid-page-wedding {
+    display: grid;
+    grid-gap: .625rem;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10vh 90vh;
+}
+
+.detail-anand {
+    grid-column: 1 / -1;
+}
+
+.detail-anand-txt {
+    text-align: center;
+    padding: 15px
+}
+
+.detail-anand-names {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Media Query */
+
+@media screen and (max-width:320px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .nav-column-links {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-img-container {
+        align-items: center;
+    }
+    .main-img {
+        height: 18.75rem;
+        width: 15.63rem;
+    }
+}
+
